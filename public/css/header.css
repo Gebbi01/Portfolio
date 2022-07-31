@@ -1,0 +1,106 @@
+/* body {
+    background-image: linear-gradient(to bottom, #000916, #001f50, #1b359a, #4e3bca);
+} */
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    /* background-color: #f5365c!important; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 36px;
+    background-color: rgba(0, 34, 85, 0.6);
+}
+
+.container-header {
+    height: 100%;
+    width: 80%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo,
+.logo:hover {
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #ffffff;
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+
+.nav-menu {
+    flex: 4;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: flex-start;
+}
+
+.nav-menu li .nav-link,
+.nav-menu li .nav-link:hover {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.nav-link i {
+    margin-right: 5px;
+}
+
+.nav-icon {
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.nav-icon a {
+    font-size: 1rem;
+    color: #ffffff;
+    width: auto;
+}
+
+.nav-icon .uil {
+    padding: 4px 4px;
+    margin: 0px 5px;
+}
+
+.uil-facebook-f {
+    color: #2dce89;
+}
+
+.uil-twitter {
+    color: #29adff;
+}
+
+.uil-instagram {
+    color: #ff518b;
+}
+
+.uil-linkedin {
+    color: #29adff;
+}

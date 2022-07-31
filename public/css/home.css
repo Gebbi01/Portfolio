@@ -1,0 +1,254 @@
+.container-home {
+    height: 700px;
+    /* background: #f5365c!important; */
+    background-image: url('/img/newYork.jpg');
+    background-size: cover;
+    background-position-y: -300px;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+}
+
+.container-home-layout {
+    height: 630px;
+    width: 100%;
+    margin: auto;
+    /* background-color: white; */
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 0px 11%;
+    background-color: rgba(0, 34, 85, 0.6);
+}
+
+.home-heading {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.intro {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #fb6340;
+}
+
+.head_one,
+.head_two {
+    font-size: 3rem;
+    color: white;
+}
+
+.head_two {
+    font-weight: 800;
+}
+
+.desc-head-home {
+    font-weight: 300;
+    color: #ffffff;
+    padding: 10px 30px 10px 0px;
+    text-align: justify;
+}
+
+.btn {
+    width: 140px;
+    height: 50px;
+}
+
+
+/* .home-layout0 img {
+    transform: translate(-100px, -100px);
+} */
+
+.home-layout {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-layout1 {
+    width: 70%;
+    height: 80%;
+    background: linear-gradient(109.61deg, #034fc2 4.26%, #010d3f 84.84%);
+    transform: translateX(50px);
+    border-radius: 6px;
+    opacity: .5;
+}
+
+.home-layout2 {
+    width: 400px;
+    height: 160px;
+    background: #021b80;
+    box-shadow: 0 4px 30px rgba(4, 2, 77, 0.3);
+    position: absolute;
+    transform: translate(250px, -200px);
+    border-radius: 6px;
+    opacity: .95;
+    padding: 5px 10px;
+}
+
+.home-layout3 {
+    width: 400px;
+    height: 160px;
+    background: #01145e;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 30%);
+    position: absolute;
+    transform: translate(275px, 10px);
+    border-radius: 6px;
+    opacity: .95;
+    padding: 5px 10px;
+}
+
+.home-layout4 {
+    width: 400px;
+    height: 160px;
+    background: #010f46;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 30%);
+    position: absolute;
+    transform: translate(225px, 200px);
+    border-radius: 6px;
+    opacity: .95;
+    padding: 5px 10px;
+}
+
+.header-layout2 {
+    display: grid;
+    grid-template-columns: 25px auto;
+}
+
+.header-layout2 .uil {
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin: auto 0px;
+}
+
+.home-layout2 div {
+    padding: 0px 30px;
+}
+
+.home-layout3 div {
+    padding: 0px 30px;
+}
+
+.home-layout4 div {
+    padding: 0px 30px;
+}
+
+.name-layout2 {
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: auto 0px;
+}
+
+.header-layout3 {
+    display: grid;
+    grid-template-columns: 25px auto;
+}
+
+.header-layout3 .uil {
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin: auto 0px;
+}
+
+.name-layout3 {
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: auto 0px;
+}
+
+.header-layout4 {
+    display: grid;
+    grid-template-columns: 25px auto;
+}
+
+.header-layout4 .uil {
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin: auto 0px;
+}
+
+.name-layout4 {
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: auto 0px;
+}
+
+
+/*-- isi dari layout2 start--*/
+
+.HomepageAnonHeaderHero_codeContent-I6nz5 {
+    margin: 15px 0px;
+}
+
+.HomepageAnonHeaderHero_cr-aN2bn {
+    color: #a88038;
+}
+
+.HomepageAnonHeaderHero_cy-JVLez {
+    color: #e1ca72;
+}
+
+.HomepageAnonHeaderHero_cg-49xQf {
+    color: #74b087;
+}
+
+
+/*-- isi dari layout2 end --*/
+
+
+/*-- isi dari layout3 start--*/
+
+p.HomepageAnonHeaderHero_line1-r-tWR {
+    margin-bottom: 0px;
+}
+
+p.HomepageAnonHeaderHero_line2-j1x2U {
+    margin-bottom: 0px;
+}
+
+p.HomepageAnonHeaderHero_line3-pAv-x {
+    margin-bottom: 0px;
+}
+
+p.HomepageAnonHeaderHero_line4-wTffx {
+    margin-bottom: 0px;
+}
+
+p.HomepageAnonHeaderHero_line5-b-wBt {
+    margin-bottom: 0px;
+}
+
+.HomepageAnonHeaderHero_cp-23ozZ {
+    color: #9f8198;
+    margin-left: 40px;
+}
+
+.HomepageAnonHeaderHero_co-ACpm {
+    color: #de7300;
+}
+
+.HomepageAnonHeaderHero_line3-pAv-x,
+.HomepageAnonHeaderHero_line4-wTffx,
+.HomepageAnonHeaderHero_line5-b-wBt {
+    margin-left: 70px;
+}
+
+p {
+    color: #ffffff;
+}
+
+
+/*-- isi dari layout3 end --*/
+
+.HomepageAnonHeaderHero_cb--MbF- {
+    color: #7a99ad;
+}
+
+.HomepageAnonHeaderHero_codeContent-I6nz5 code {
+    color: #ffffff;
+}
