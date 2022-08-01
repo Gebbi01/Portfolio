@@ -2,7 +2,7 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const cors = require('cors')
 const app = express()
-const port = 3000
+const PORT = 8080
 
 app.use(cors())
 app.use(express.json())
@@ -35,6 +35,7 @@ app.get('', (req, res) => {
 
 
 
-app.listen(port, () => {
-    console.log('server berhasil berjalan di port 3000!')
+
+app.listen(PORT, () => {
+    console.log('server berhasil berjalan di port 8080!')
 })
